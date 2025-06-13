@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坦克大战</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="code-entry-container" style="display: none;">
+            <input type="text" id="giftCodeInput" placeholder="输入礼品码..." maxlength="10">
+            <button id="giftCodeButton">兑换</button>
+        </div>
+    </div>
+    
+    <div id="update-modal-backdrop" style="display: none;">
+        <div id="update-modal-content">
+            <button id="modal-close-button">&times;</button>
+            <h2>更新日志</h2>
+            <p>欢迎回来，坦克大战已经更新到V1.1版本</p>
+            <ul>
+                <li><b>平衡性调整：</b>🟢大幅度减小了五联装机枪坦克和普通机枪坦克的子弹散布范围</li>
+                <li><b>平衡性调整：</b>🟢加特林机枪坦克现在每次发射两颗并列子弹，同时应用了新音效</li>
+                <li><b>平衡性调整：</b>🟢隐匿狙击坦克现在进入隐身状态后可以在隐身状态下移动</li>
+                <li><b>平衡性调整：</b>🟢蓄能狙击坦克蓄力达到最大伤害的时间减半（2秒→1秒）</li>
+                <li><b>平衡性调整：</b>🟢火焰坦克的反应装甲现在会随时间自动恢复生命值</li>
+                <li><b>平衡性调整：</b>🟢炮弹坦克的音速弹弹道飞行速度从2倍提升到2.5倍</li>
+                <li><b>平衡性调整：</b>🟢炮弹坦克的震爆弹眩晕时间加长（0.2秒→0.35秒）</li>
+                <li><b>平衡性调整：</b>🟢炮弹坦克生命值提升（10→15），狙击坦克和迫击炮坦克生命值提升（6→8）</li>
+                <li><b>平衡性调整：</b>🔴火焰坦克的燃烧反应降低敌人伤害的降低量削弱（1.5→1）</li>
+                <li><b>视觉效果：</b>新增敌方坦克被击毁后的音效与动画</li>
+                <li><b>视觉效果：</b>修改了所有坦克的模型</li>
+            </ul>
+            <p>感谢您的游玩！</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
