@@ -520,7 +520,7 @@ function drawSplashScreen() {
     ctx.fillStyle = `rgba(255, 255, 255, ${textAlpha})`;
     ctx.font = `${60 * UI_SCALE}px 'Courier New', Courier, monospace`;
     ctx.textAlign = 'center';
-    ctx.fillText("SnowUnseasonal", canvas.width / 2, canvas.height / 2);
+    ctx.fillText("Ooxygen7", canvas.width / 2, canvas.height / 2);
 }
 
 
